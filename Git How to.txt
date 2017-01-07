@@ -64,3 +64,6 @@ To put the files from the repository into the working files:
 To remove a file from staging:
 	git reset HEAD fileName
 
+To checkout a file from a certain commit:
+	git checkout [first several numbers of the commit] -- fileName
+
