@@ -1,0 +1,23 @@
+Configure your name and email first:
+	git config --global user.name "Omar Uni"
+	git config --global user.email "something@something"
+
+To check configurations:
+	git config --list
+
+To enter folders:
+	"cd" means Change Folder
+
+	pwd : to check what folder your on
+	cd ~ : to go to the main folder
+	cd .. : To go back a folder
+	ls : to check the files inside the folder you're in
+	cd nameOfFolder : to change to that folder
+
+To initialise an empty folder:
+	git init
+
+To commit a file:
+	git add .
+	git commit -m "This is a meesage with the commit"
+
