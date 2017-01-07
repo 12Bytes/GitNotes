@@ -61,3 +61,6 @@ To move to another folder:
 To put the files from the repository into the working files:
 	git checkout -- fileName
 
+To remove a file from staging:
+	git reset HEAD fileName
+
