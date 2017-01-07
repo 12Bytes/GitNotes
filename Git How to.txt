@@ -28,6 +28,9 @@ To commit a file at a time:
 To see the changed files:
 	git status
 
+To see changes made on the files:
+	git diff
+
 To check your log of commits:
 	git log
 
