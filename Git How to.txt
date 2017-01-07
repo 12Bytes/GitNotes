@@ -17,7 +17,20 @@ To enter folders:
 To initialise an empty folder:
 	git init
 
-To commit a file:
+To commit all files at once:
 	git add .
 	git commit -m "This is a meesage with the commit"
+
+To commit a file at a time:
+	git add fileName
+	git commit fileName
+
+To see the changed files:
+	git status
+
+To check your log of commits:
+	git log
+
+To check log by Author:
+	git log --author="name"
 
