@@ -44,3 +44,13 @@ To remove a file from the repository and the folder:
 	git rm fileName
 	Then commit.
 
+To rename a file:
+	git mv fileName fileName2
+
+	or the Hard Way:
+		rename it at the file
+		git add fileName2
+		git rm fileName
+
+To move to another folder:
+	git mv fileName folder/fileName
