@@ -31,6 +31,9 @@ To see the changed files:
 To see changes made on the files:
 	git diff
 
+To see changes made on the files in the stagesd area:
+	git diff --staged
+
 To check your log of commits:
 	git log
 
