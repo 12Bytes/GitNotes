@@ -40,3 +40,7 @@ To check your log of commits:
 To check log by Author:
 	git log --author="name"
 
+To remove a file from the repository and the folder:
+	git rm fileName
+	Then commit.
+
