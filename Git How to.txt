@@ -18,8 +18,11 @@ To initialise an empty folder:
 	git init
 
 To commit all files at once:
-	git add .
-	git commit -m "This is a message with the commit"
+	git commit -am "Message for commit"
+
+	or the Hard way:
+		git add .
+		git commit -m "This is a message with the commit"
 
 To commit a file at a time:
 	git add fileName
