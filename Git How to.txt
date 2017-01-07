@@ -57,3 +57,7 @@ To rename a file:
 
 To move to another folder:
 	git mv fileName folder/fileName
+
+To put the files from the repository into the working files:
+	git checkout -- fileName
+
