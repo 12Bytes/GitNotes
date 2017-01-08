@@ -67,3 +67,15 @@ To remove a file from staging:
 To checkout a file from a certain commit:
 	git checkout [first several numbers of the commit] -- fileName
 
+To add a remote connection to a repository:
+	git remote add nickName repositoryURL
+
+To check what connection you're on:
+	git remote
+
+To Push to GitHub:
+	git push -u nickName master
+	Then enter:
+		Username
+		password
+
